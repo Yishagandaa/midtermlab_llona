@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Violin Lessons</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <!-- Bootstrap JavaScript Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+        .about-image {
+            max-width: 70%;
+            display: block;
+            margin: auto;
+        }
+        .why-choose {
+            background: #f6ab6e;
+            padding: 40px;
+            border-radius: 10px;
+        }
+        .why-choose h2 {
+            color: #343a40;
+        }
+        .why-choose ul {
+            list-style: none;
+            padding: 0;
+        }
+        .why-choose li {
+            padding: 10px 0;
+            font-size: 18px;
+        }
+        .navbar {
+            background: linear-gradient(90deg, #5a3e36, #8b5e4e);
+        }
+        .navbar-brand {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+        .navbar-tagline {
+            font-size: 0.9rem;
+            color: #f8e8e0;
+            font-style: italic;
+        }
+        footer {
+            background: linear-gradient(90deg, #5a3e36, #8b5e4e);
+            color: #f8e8e0;
+        }
+        footer a {
+            color: #f8e8e0;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                YisHarmony
+                <div class="navbar-tagline">"Where music meets harmony"</div>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="About.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Services.html">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Contacts.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section with Carousel -->
+    <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="Images/Image 1.jpg" class="d-block w-100" alt="Slide 1">
+                <div class="carousel-caption">
+                    <h3>Welcome to YisHarmony</h3>
+                    <p>Your gateway to learning the violin.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="Images/Image 2.jpg" class="d-block w-100" alt="Slide 2">
+            </div>
+            <div class="carousel-item">
+                <img src="Images/Image 3.jpg" class="d-block w-100" alt="Slide 3">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+
+    <!-- About Us Section -->
+    <div class="container mt-5">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <h2>About Us</h2>
+                <p>We offer violin lessons and learning resources for musicians of all levels. Our expert instructors help students develop their skills with personalized guidance.</p>
+                <a href="About.html" class="btn" style="background: linear-gradient(90deg, #5a3e36, #8b5e4e); color: #f8e8e0;">Learn More</a>
+            </div>
+            <div class="col-md-6 text-center">
+                <img src="Images/About image.jpg" class="img-fluid rounded shadow about-image" alt="About Us">
+            </div>
+        </div>
+    </div>
+
+    <!-- Why Choose Us Section -->
+    <div class="container text-center my-5 why-choose" style="background-color: #f3e5e5;">
+        <h2>Why Choose Us?</h2>
+        <ul>
+            <li>🎻 Expert violin instructors with years of experience</li>
+            <li>📚 High-quality learning materials and sheet music</li>
+            <li>💻 Flexible online and in-person lesson options</li>
+            <li>🎶 Personalized feedback to improve your skills</li>
+        </ul>
+    </div>
+
+    <!-- Services Section -->
+    <div id="services" class="container mt-5 services-section">
+        <h3 class="text-center">Our Services</h3>
+        <div class="row justify-content-center">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="Images/Service 1 image.jpg" class="card-img-top" alt="Service 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Violin Lessons</h5>
+                        <p class="card-text">Structured violin lessons for beginners, intermediate, and advanced players.</p>
+                        <a href="Services.html" class="btn" style="background: linear-gradient(90deg, #5a3e36, #8b5e4e); color: #f8e8e0;">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="Images/Service 2 image.jpg" class="card-img-top" alt="Service 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Sheet Music & Resources</h5>
+                        <p class="card-text">A collection of sheet music, exercises, and tutorials for self-paced learning.</p>
+                        <a href="Services.html" class="btn" style="background: linear-gradient(90deg, #5a3e36, #8b5e4e); color: #f8e8e0;">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Quick View About Us Modal -->
+    <div class="container text-center mt-5">
+        <button class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#aboutModal" 
+            onmouseover="this.style.color='#f8e8e0'; this.style.background='linear-gradient(90deg, #5a3e36, #8b5e4e)';" 
+            onmouseout="this.style.color=''; this.style.background='';">
+            About Us (Quick View)
+        </button>
+    </div>
+    <div class="modal fade" id="aboutModal" tabindex="-1" aria-labelledby="aboutModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="aboutModalLabel">About Us</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>We provide high-quality violin lessons and learning resources. Whether you're a beginner or an advanced musician, our expert instructors are here to guide you.</p>
+                    <img src="Images/About image.jpg" class="img-fluid rounded shadow" alt="About Us">
+                </div>
+                <div class="modal-footer">
+                    <a href="About.html" class="btn btn-primary">Learn More</a>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer id="contact" class="py-4 mt-5">
+        <div class="container text-center">
+            <p>&copy; YisHarmony. All Rights Reserved.</p>
+            <a href="#">Back to Top</a>
+        </div>
+    </footer>
+
+    <!-- Enable Tooltips -->
+    <script>
+        var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
+        var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+            return new bootstrap.Tooltip(tooltipTriggerEl);
+        });
+    </script>
+
+</body>
+</html>
+
+
